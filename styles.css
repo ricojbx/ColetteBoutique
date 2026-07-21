@@ -135,6 +135,44 @@ body {
   outline-offset: 4px;
 }
 
+/* Instagram link: glyph to the left of the handle, slightly larger than the text */
+.detail--ig {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.detail__icon {
+  width: 1.3em;
+  height: 1.3em;
+  flex: 0 0 auto;
+}
+
+/* ---------- STORE HOURS ---------- */
+.hero__hours {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.hours__label {
+  font-family: var(--font-sans);
+  font-size: clamp(0.7rem, 1.6vw, 0.82rem);
+  font-weight: 500;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--pink);
+  margin-bottom: 0.15rem;
+}
+
+.hours__line {
+  font-family: var(--font-sans);
+  font-size: clamp(0.85rem, 1.9vw, 1.02rem);
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  color: var(--cream);
+}
+
 /* ---------- ACCENT STRIP (cross-fade) ---------- */
 .strip {
   position: relative;
