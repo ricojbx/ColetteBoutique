@@ -165,12 +165,32 @@ body {
   margin-bottom: 0.15rem;
 }
 
-.hours__line {
+.hours__list {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1.5rem;
+  row-gap: 0.35rem;
+  margin: 0;
+  width: max-content; /* hug content so the two columns sit close, not full-width */
+}
+
+.hours__list dt,
+.hours__list dd {
   font-family: var(--font-sans);
   font-size: clamp(0.85rem, 1.9vw, 1.02rem);
   font-weight: 400;
   letter-spacing: 0.1em;
   color: var(--cream);
+  margin: 0;
+}
+
+.hours__list dt {
+  text-align: left;
+}
+
+.hours__list dd {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
 }
 
 /* ---------- ACCENT STRIP (cross-fade) ---------- */
