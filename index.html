@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Colette Boutique — Curated Goods · Boise, ID</title>
+  <meta name="description" content="Colette Boutique — a curated gift shop in Boise, Idaho. One-of-a-kind finds for one-of-a-kind friends." />
+
+  <!-- Open Graph / social preview -->
+  <meta property="og:title" content="Colette Boutique" />
+  <meta property="og:description" content="Curated goods · Boise, ID. One-of-a-kind finds for one-of-a-kind friends." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/brand-board.jpg" />
+
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+  <link rel="apple-touch-icon" href="assets/silhouette.jpg" />
+
+  <!-- Fonts: Cormorant Garamond (title), Montserrat (details) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main>
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="brand-title">
+      <img class="hero__silhouette" src="assets/silhouette.jpg" alt="" aria-hidden="true" />
+
+      <div class="hero__content">
+        <p class="hero__eyebrow">Curated Goods · Boise, ID</p>
+        <h1 id="brand-title" class="hero__title">Colette&nbsp;Boutique</h1>
+
+        <span class="hero__divider" aria-hidden="true"></span>
+
+        <p class="hero__tagline">One-of-a-kind finds for one-of-a-kind friends.</p>
+
+        <address class="hero__details">
+          <a class="detail" href="https://maps.google.com/?q=3122+S+Bown+Way,+Boise,+ID+83706"
+             target="_blank" rel="noopener">
+            3122 S Bown Way, Boise, ID 83706
+          </a>
+          <a class="detail" href="https://instagram.com/colette_theboutique"
+             target="_blank" rel="noopener">
+            @colette_theboutique
+          </a>
+        </address>
+      </div>
+    </section>
+
+    <!-- ACCENT STRIP: cross-fading brand imagery -->
+    <section class="strip" aria-label="Colette Boutique brand gallery">
+      <ul class="strip__track" id="strip-track">
+        <li class="strip__slide is-active">
+          <img src="assets/logo-stripes.jpg" alt="Colette wordmark on a soft pink-and-cream striped background." />
+        </li>
+        <li class="strip__slide">
+          <img src="assets/brand-board.jpg" alt="Colette Boutique brand board featuring curated ceramics and homeware." />
+        </li>
+        <li class="strip__slide">
+          <img src="assets/silhouette.jpg" alt="Pink silhouette of a woman with an updo on a sage green background." />
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; <span id="year">2026</span> Colette Boutique · Boise, Idaho</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
