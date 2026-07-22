@@ -135,8 +135,9 @@ body {
   outline-offset: 4px;
 }
 
-/* Instagram link: glyph to the left of the handle, slightly larger than the text */
-.detail--ig {
+/* Icon links (Instagram, phone): glyph to the left, slightly larger than the text */
+.detail--ig,
+.detail--icon {
   display: inline-flex;
   align-items: center;
   gap: 0.5em;
